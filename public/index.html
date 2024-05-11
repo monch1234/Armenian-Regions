@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title id = "title"></title>
+</head>
+
+<body>
+    <div class="size">
+        <header>
+            <h1 id="header_h1"></h1>
+
+            <div class="menu-toggle" id="open-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a id="link_home_page" href=" "></a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <section class="short-description">
+                <h3 id = 'h3_one'></h3>
+                <img src="regions/img/maps/Municipalities-map.png" alt="Armenian Map" class="images">
+            </section>
+            <hr>
+            <h2 style="text-align: center;" id="marzer"></h2>
+            <section class="short-description">
+                <img src="regions/img/maps/Map_am.gif" alt="map">
+                <h3 id="h3_two"></h3>
+            </section>
+            <hr>
+
+            <h2 style="text-align: center;" id="yerevan"></h2>
+
+            <section class="short-description">
+                <h3 id="h3_three"></h3>
+                <img src="regions/img/maps/yerevan.png" alt="yerevan Map">
+            </section>
+
+            <section class="menu-bar" id="navbar">
+
+
+                <div class="menu-toggle" id="close-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+                <ul>
+                    <div>
+                        <li style="display: flex; justify-content: space-between;">
+                            <h2 style="color: #fff; margin: 0px 0px 20px 0px" id="marzer_two"></h2>
+
+                            <div>
+                                <label for="Search" id="search_bar">
+                                    <input type="text" id="searchInput" placeholder="Որոնել">
+                                    <img src="./img/free-icon-search-magnifier-symbol-of-interface-51658.png" alt="">
+                                </label>
+                                <div id="searchResult"></div>
+                            </div>
+                        </li>
+                    </div>
+                    <li><a href='regions/aragacotn/aragacotn.html' id="aragacotn"></a></li>
+                    <li><a href="regions/ararat/ararat.html" id="ararat"></a></li>
+                    <li><a href="regions/armavir/armavir.html" id="armavir"></a></li>
+                    <li><a href="regions/gexarquniq/gexarquniq.html" id="gexarquniq"></a></li>
+                    <li><a href="regions/kotayq/kotayq.html" id="kotayq"></a></li>
+                    <li><a href="regions/lori/lori.html" id="lori"></a></li>
+                    <li><a href="regions/shirak/shirak.html" id="shirak"></a></li>
+                    <li><a href="regions/syuniq/syuniq.html" id="syuniq"></a></li>
+                    <li><a href="regions/tavush/tavush.html" id="tavush"></a></li>
+                    <li><a href="regions/vayocDzor/vayocDzor.html" id="vayocDzor"></a></li>
+                </ul>
+
+
+            </section>
+
+            <section class="slider-bar">
+                <div id="slider">
+                    <div class="slider__content">
+                        <a href="regions/aragacotn/aragacotn.html">
+                            <img src="regions/img/pexels-roza-khachatryan-9585095.jpg" alt="">
+                            <h1 id="aragacotn_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/ararat/ararat.html">
+                            <img src="regions/img/ararat-slide9.jpeg" alt="">
+                            <h1 id="ararat_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/armavir/armavir.html">
+                            <img src="regions/img/armavir-slide8.jpeg" alt="">
+                            <h1 id="armavir_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/gexarquniq/gexarquniq.html">
+                            <img src="regions/img/gexarquniq-slide7.jpeg" alt="">
+                            <h1 id="gexarquniq_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/kotayq/kotayq.html">
+                            <img src="regions/img/kotayq-slide6.jpeg" alt="">
+                            <h1 id="kotayq_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/lori/lori.html">
+                            <img src="regions/img/lori-slide5.jpeg" alt="">
+                            <h1 id="lori_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/shirak/shirak.html">
+                            <img src="regions/img/shirak-slide4.jpeg" alt="">
+                            <h1 id="shirak_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/syuniq/syuniq.html">
+                            <img src="regions/img/syuniq-slide3.jpeg" alt="">
+                            <h1 id="syuniq_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/tavush/tavush.html">
+                            <img src="regions/img/tavush-slide2.jpeg" alt="">
+                            <h1 id="tavush_two"></h1>
+                        </a>
+                    </div>
+                    <div class="slider__content">
+                        <a href="regions/vayocDzor/vayocDzor.html">
+                            <img src="regions/img/vayoc-dzor-slide1.png" alt="">
+                            <h1 id="vayocDzor_two"></h1>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <div class="leftBtn">◁</div>
+                        <div class="rightBtn">▷</div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section style="display: none;">
+                <ul>
+                    <li><a href="./City/Abovyan.html" id="abovyan"></a></li>
+                    <li><a href="./City/Erevan.html" id="erevan"></a></li>
+                    <li><a href="./City/vanadzor.html" id="vanadzor"></a></li>
+                    <li><a href="./City/berd.html" id="berd"></a></li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1563367.73001798!2d43.72156453845!3d40.065315396432176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40155684e773bac7%3A0xd0b4757aeb822d23!2z0JDRgNC80LXQvdC40Y8!5e0!3m2!1sru!2sam!4v1711538391795!5m2!1sru!2sam"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </footer>
+    </div>
+    <script src="data.js">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
